@@ -8,5 +8,7 @@ WriteMakefile(
     ABSTRACT     => '',
     PREREQ_PM    => {
                      'Test::Simple' => 0.44,
+                     'Digest::SHA1' => 2.00,
+                     'Convert::Bencode' => 1.03,
                     },
 );

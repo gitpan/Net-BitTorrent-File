@@ -1,5 +1,8 @@
 Revision history for Perl module Net::BitTorrent::File
 
+1.01 Wed Oct  8 00:10:36 2003
+	- Forgot to change the requirements in Makefile.PL
+
 1.00 Tue Oct  7 20:43:17 2003
 	- Initial upload to CPAN
 
