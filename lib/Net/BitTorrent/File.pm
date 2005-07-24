@@ -297,7 +297,7 @@ sub load {
 	my $buff = '';
 
 	open(FILE, '< '.$file);
-	$/ = '';
+	local $/;
 	$buff = <FILE>;
 	close(FILE);
 	my $root = bdecode($buff);
